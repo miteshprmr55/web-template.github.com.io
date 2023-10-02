@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: cursive;
+}
+
+.fa {
+    padding: 8px;
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+}
+
+.search-bar button {
+    padding: 5px;
+    border: none;
+    border: 1px solid black;
+    border-left: none;
+}
+
+.logo {
+    width: 30px;
+    height: auto;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    font-family: fantasy;
+}
+
+ul {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0.2%;
+}
+
+li {
+    padding: 10px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+    background-color: white;
+    padding: 10px;
+    
+}
+
+ul li a:hover {
+    color: white;
+    background-color: black;
+}
+
+slider {
+    display: flex;
+    justify-content: center;
+}
+
+#slider {
+    background-color: black;
+    width: 90%;
+    height: 600px;
+    margin-top: 1.2%;
+    margin-left: 4.5%;
+}
+
+.box-1 {
+    background-color: white;
+    width: 90%;
+    height: 400px;
+    margin-left: 68px;
+    margin-top: 1.1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.first-p {
+    width: 45%;
+    text-align: center;
+    background-color: white;
+    margin-top: 1%;
+    margin-left: 68px;
+    display: flex;
+    justify-content: center;
+    float: left;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.first-p p {
+    width: 90%;
+    font-family: monospace;
+    text-align: justify;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sec-p {
+    width: 45%;
+    text-align: center;
+    background-color: white;
+    margin-top: 1%;
+    margin-left: 68px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.sec-p p {
+    width: 90%;
+    font-family: monospace;
+    text-align: justify;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+iframe {
+    margin-left: 68px;
+    margin-top: 1%;
+}
